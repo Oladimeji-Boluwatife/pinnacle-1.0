@@ -1,0 +1,57 @@
+.footer {
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  
+  .footer .section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer .social-icons .icon {
+    display: inline-block;
+    margin: 5px;
+    font-size: 1.5rem; /* Larger size for icons */
+    color: #ffc107; /* Golden yellow for icons */
+  }
+  
+  .footer .social-icons .icon:hover {
+    color: #fff; /* Change to white on hover */
+  }
+  
+  .footer a {
+    color: #ffc107; /* Golden yellow for links */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .footer .newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .footer .newsletter button {
+    background-color: #ffc107; /* Golden yellow button */
+    color: #333; /* Dark text for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer .newsletter button:hover {
+    background-color: #fff; /* White button */
+    color: #333; /* Dark text */
+  }
+  
