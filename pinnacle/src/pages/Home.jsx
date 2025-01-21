@@ -177,27 +177,27 @@ const Home = () => {
       <div className="flex justify-between mb-12">
         <div className="w-full md:w-1/2 pr-8">
           <hr className="border-gray-300 mb-4" />
-          <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+          <h3 className="text-2xl font-semibold text-gray-800 ms-9">
             Our Mission
           </h3>
-          <p className="text-lg text-gray-600 mb-4">
+          <p className="text-lg text-gray-600 ms-9 mt-5 mb-4">
             Our mission is to connect clients with properties that match their
             needs while delivering value-driven services. We work with the
             utmost professionalism to create lasting relationships with our
             clients and partners.
           </p>
           <hr className="border-gray-300 mb-4" />
-          <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+          <h3 className="text-2xl font-semibold text-gray-800 ms-9 ">
             Our Values
           </h3>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg text-gray-600 ms-9 mt-4">
             Our core values are integrity, transparency, and excellence. We
             believe in providing our clients with an honest and clear process
             every step of the way, ensuring satisfaction and peace of mind.
           </p>
         </div>
         <div className="w-full md:w-1/2">
-          <div className="relative mb-12">
+          <div className="relative m-9">
             <img
               src={image1}
               alt="Showcase Image"
@@ -207,7 +207,7 @@ const Home = () => {
           <div className="mt-4">
             <Link
               to="/properties"
-              className="bg-yellow-400 text-black py-2 px-4 rounded hover:bg-[#fbf7a0] transition"
+              className="bg-yellow-400 text-black py-2 px-4 rounded hover:bg-[#fbf7a0] transition ms-9"
             >
               View Properties
             </Link>
